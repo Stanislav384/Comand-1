@@ -5,8 +5,101 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        
+        .dota-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 40px;
+            background: linear-gradient(to bottom, #24282d, #1b1e21);
+            border-bottom: 2px solid var(--dota-border);
+            height: 70px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+        }
+
+        
+        .burger-menu {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            cursor: pointer;
+        }
+        .burger-line {
+            width: 30px;
+            height: 3px;
+            background: var(--dota-gold);
+            box-shadow: 0 0 5px var(--dota-gold);
+        }
+
+        
+        .logo-center img {
+            height:75px;
+            filter: drop-shadow(0 0 8px var(--dota-gold)); 
+        }
+
+        
+        .social-icons {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+        }
+        .social-icons i {
+            color: var(--dota-text);
+            font-size: 1.2rem;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        .social-icons i:hover { color: var(--dota-gold); }
+
+        
+        .order-btn {
+            background: linear-gradient(135deg, #e1b305 0%, #8a6d00 100%);
+            color: #000;
+            border: 1px solid #000;
+            padding: 12px 25px;
+            border-radius: 25px;
+            font-weight: bold;
+            text-transform: uppercase;
+            cursor: pointer;
+            box-shadow: 0 0 10px rgba(225, 179, 5, 0.3);
+            transition: all 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+
+        .order-btn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 20px rgba(225, 179, 5, 0.6);
+        }
+
+        .order-btn:active { transform: scale(0.95); }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
 </head>
 <body>
+
+    <header class="dota-header">
+    <div class="burger-menu" onclick="toggleMenu()">
+        <div class="burger-line"></div>
+        <div class="burger-line"></div>
+        <div class="burger-line"></div>
+    </div>
+
+    <div class="logo-center">
+        <img src="https://cdn.discordapp.com/attachments/1472218751138140223/1472272221975351448/AOI_d_9PMTqPFGYVxUIOXC3nUJqAHEhHB88H35iVVCA5ZHeDG1_mpuEEgxfLP-ODZj9w6JCkJKhWFq8kr4gtkSMFzuCOq50R2O5fXi9VGFeP-vymVyF0yEIXiaaVubBTHsT-YCm3etRvAmaCqeaJl-LpeaUI9qHi3wk3-olibfTjmoQjeJjLs1024-rj.png?ex=6991f7db&is=6990a65b&hm=b90339aa1ce6b2c17508ece39d47ac1cbe77a5ad4a8847d6e3c42e9f11db6858&"  >
+    </div>
+
+    <div class="social-icons">
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-youtube"></i>
+        <i class="fab fa-tiktok"></i>
+        
+        <button class="order-btn" id="orderBtn">
+            ZAMÓW McDELIVERY®
+        </button>
+    </div>
+</header>
     
     <script src="script.js"></script>
 </body>
