@@ -45,6 +45,8 @@
     border-radius: 15px;
     color: white;
     text-decoration: none;
+    justify-content: center;
+    display: flex;
 }
 
 .promo-container {
