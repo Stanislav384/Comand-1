@@ -16,7 +16,7 @@
             background: linear-gradient(to bottom, #24282d, #1b1e21);
             border-bottom: 2px solid var(--dota-border);
             height: 70px;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+            box-shadow: 0 5px 15px rgb(255, 255, 255);
         }
 
         
@@ -35,7 +35,7 @@
 
         
         .logo-center img {
-            height:75px;
+            height:85px;
             filter: drop-shadow(0 0 8px var(--dota-gold)); 
         }
 
@@ -56,8 +56,8 @@
         
         .order-btn {
             background: linear-gradient(135deg, #e1b305 0%, #8a6d00 100%);
-            color: #000;
-            border: 1px solid #000;
+            color: #000000;
+            border: 1px solid #000000;
             padding: 12px 25px;
             border-radius: 25px;
             font-weight: bold;
