@@ -1,0 +1,80 @@
+.Prieview{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.Prieview img {
+    width: 80%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 0 15px var(--dota-gold);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.Prieview img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 25px var(--dota-gold);
+}
+
+
+body {
+    background-color: #1b1e21; /* Темный фон как в клиенте Dota */
+    font-family: 'Segoe UI', Thonburi, Arial, sans-serif;
+    padding: 50px;
+}
+
+.dota-menu-container {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.3);
+    border-bottom: 2px solid #333;
+}
+
+.dota-btn {
+    position: relative;
+    background: linear-gradient(to bottom, #2d353b 0%, #1a1f24 100%);
+    border: 1px solid #464d54;
+    color: #9ea9a3;
+    padding: 10px 25px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    border-radius: 2px;
+    white-space: nowrap;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.05);
+}
+
+
+.dota-btn:hover {
+    background: linear-gradient(to bottom, #3d464d 0%, #252b31 100%);
+    color: #ffffff;
+    border-color: #666e75;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+
+.dota-btn.active {
+    background: linear-gradient(to bottom, #515b64 0%, #2d353b 100%);
+    color: #e5d08f; 
+    border-color: #a38d55;
+    box-shadow: 0 0 15px rgba(163, 141, 85, 0.3), inset 0 0 5px rgba(163, 141, 85, 0.5);
+}
+
+
+.dota-btn:active {
+    transform: translateY(1px);
+    filter: brightness(0.8);
+}
+
+
+.dota-menu-container::-webkit-scrollbar {
+    height: 4px;
+}
+.dota-menu-container::-webkit-scrollbar-thumb {
+    background: #464d54;
+}
