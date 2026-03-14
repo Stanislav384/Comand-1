@@ -1,62 +1,65 @@
 <!DOCTYPE html>
 <html lang="uk">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MacDota Menu</title>
 
-<title>MacDota Menu</title>
-
-<link rel="stylesheet" href="style.css">
-
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="delivery.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 
 <body>
+    <header class="dota-header">
+        <div class="back-btn">
+            <a href="index.html">Назад</a>
+        </div>
 
 
-<header class="dota-header">
+        <div class="burger-menu" onclick="toggleMenu()">
+            <div class="burger-line"></div>
+            <div class="burger-line"></div>
+            <div class="burger-line"></div>
+        </div>
 
-<div class="logo-center">
-<img src="logo.png">
-</div>
+        <div class="logo-center">
+            <img src="https://i.ibb.co/JNPjFP1/Chat-GPT-Image-21-2026-15-35-23.png"  >
+        </div>
 
-<a href="#" class="order-btn">
-Назад до меню
-</a>
+        <div class="social-icons">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-youtube"></i>
+            <i class="fab fa-tiktok"></i>
+            
+            <a href="delivery.html" class="order-btn" id="orderBtn">
+                Закажи McDELIVERY®
+            </a>
+        </div>
+    </header>
 
-</header>
 
+    <section class="menu">
+        <div class="menu-grid">
+            <div class="menu-card">
+                <img src="image/rottenburger.png">
+            </div>
 
+            <div class="menu-card">
+                <img src="image/infest_nuggets.png">
+            </div>
 
-<div class="hero">
-<img src="hero.png">
-</div>
+            <div class="menu-card">
+                <img src="image/sniperburger.png">
+            </div>
 
-
-
-<section class="menu">
-
-<div class="menu-grid">
-
-<div class="menu-card">
-<img src="images/rottenburger.png">
-</div>
-
-<div class="menu-card">
-<img src="images/infest_nuggets.png">
-</div>
-
-<div class="menu-card">
-<img src="images/sniperburger.png">
-</div>
-
-<div class="menu-card">
-<img src="images/barracola.png">
-</div>
-
-</div>
-
-</section>
+            <div class="menu-card">
+                <img src="image/barracola.png">
+            </div>
+        </div>
+    </section>
 
 
 </body>
