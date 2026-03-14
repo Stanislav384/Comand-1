@@ -63,55 +63,55 @@
 }
 
 .dota-menu {
-display: flex;
-gap: 15px; /
-padding: 20px;
-background: linear-gradient(180deg, rgba(40,40,40,1) 0%, rgba(20,20,20,1) 100%);
-border-top: 2px solid #5a5a5a;
-border-bottom: 2px solid #5a5a5a;
-box-shadow: 0 0 30px rgba(0,0,0,0.8);
+    display: flex;
+    gap: 15px; 
+    padding: 20px;
+    background: linear-gradient(180deg, rgba(40,40,40,1) 0%, rgba(20,20,20,1) 100%);
+    border-top: 2px solid #5a5a5a;
+    border-bottom: 2px solid #5a5a5a;
+    box-shadow: 0 0 30px rgba(0,0,0,0.8);
 }
 
 .item-card {
-width: 250px; /* Ширина карточки */
-transition: transform 0.3s ease, box-shadow 0.3s ease;
-cursor: pointer;
-border: 1px solid #333;
- position: relative;
+    width: 250px; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    border: 1px solid #333;
+    position: relative;
 }
 
 .item-card:hover {
-transform: translateY(-10px);
-box-shadow: 0 10px 20px rgba(255, 255, 255, 0.1);
-order: 1px solid #a3d3ff; /* Голубое свечение при наведении */
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(255, 255, 255, 0.1);
+    order: 1px solid #a3d3ff; 
 }
 
 .item-card img {
-width: 100%;
-height: auto;
-display: block;
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 .item-label {
-background-color: rgba(0, 0, 0, 0.8);
-color: #ccc;
-text-align: center;
-padding: 10px 5px;
-font-size: 14px;
-text-transform: uppercase;
-letter-spacing: 1px;
-border-top: 1px solid #444;
-min-height: 50px;
-display: flex;
-align-items: center;
-justify-content: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #ccc;
+    text-align: center;
+    padding: 10px 5px;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-top: 1px solid #444;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
 .new-item {
-order: 1px solid #c2a95f;
+    order: 1px solid #c2a95f;
 }
         
 .new-item .item-label {
-color: #f1d37e;
+    color: #f1d37e;
 }
