@@ -1,86 +1,66 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MacDota Menu</title>
 
-<title>MacDelivery</title>
-
-<link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="delivery.css">
-
-<link rel="stylesheet"
-href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="delivery.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 
 <body>
+    <header class="dota-header">
+        <div class="back-btn">
+            <a href="index.html">Назад</a>
+        </div>
 
 
-<header class="dota-header">
+        <div class="burger-menu" onclick="toggleMenu()">
+            <div class="burger-line"></div>
+            <div class="burger-line"></div>
+            <div class="burger-line"></div>
+        </div>
 
-<div class="burger-menu" onclick="toggleMenu()">
-<div class="burger-line"></div>
-<div class="burger-line"></div>
-<div class="burger-line"></div>
-</div>
+        <div class="logo-center">
+            <img src="https://i.ibb.co/JNPjFP1/Chat-GPT-Image-21-2026-15-35-23.png"  >
+        </div>
 
-<div class="logo-center">
-<img src="https://i.ibb.co/JNPjFP1/Chat-GPT-Image-21-2026-15-35-23.png">
-</div>
-
-<div class="social-icons">
-
-<i class="fab fa-facebook-f"></i>
-<i class="fab fa-instagram"></i>
-<i class="fab fa-youtube"></i>
-<i class="fab fa-tiktok"></i>
-
-<a href="delivery.html" class="order-btn" id="orderBtn">
-Закажи McDELIVERY®
-</a>
-
-</div>
-
-</header>
+        <div class="social-icons">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-youtube"></i>
+            <i class="fab fa-tiktok"></i>
+            
+            <a href="delivery.html" class="order-btn" id="orderBtn">
+                Закажи McDELIVERY®
+            </a>
+        </div>
+    </header>
 
 
+    <section class="menu">
+        <div class="menu-grid">
+            <div class="menu-card">
+                <img src="image/rottenburger.png">
+            </div>
 
-<section class="delivery-hero">
+            <div class="menu-card">
+                <img src="image/infest_nuggets.png">
+            </div>
 
-<img src="images/combo.jpg">
+            <div class="menu-card">
+                <img src="image/sniperburger.png">
+            </div>
 
-</section>
+            <div class="menu-card">
+                <img src="image/barracola.png">
+            </div>
+        </div>
+    </section>
 
-
-
-<section class="menu">
-
-<div class="menu-grid">
-
-<div class="menu-card">
-<img src="images/rottenburger.png">
-</div>
-
-<div class="menu-card">
-<img src="images/infest_nuggets.png">
-</div>
-
-<div class="menu-card">
-<img src="images/sniperburger.png">
-</div>
-
-<div class="menu-card">
-<img src="images/barracola.png">
-</div>
-
-</div>
-
-</section>
-
-
-<script src="script.js"></script>
 
 </body>
 </html>
