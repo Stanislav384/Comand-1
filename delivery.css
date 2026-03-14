@@ -1,44 +1,15 @@
-body{
-margin:0;
-font-family:Arial;
-background:#000;
-}
-
-
-
-.dota-header{
-display:flex;
-justify-content:space-between;
-align-items:center;
-padding:15px 40px;
-background:#111;
-}
-
-.logo-center img{
-height:60px;
-}
-
-.order-btn{
-background:#ffb300;
-padding:12px 25px;
-border-radius:30px;
-text-decoration:none;
-color:black;
-font-weight:bold;
-}
-
-
-
-.hero{
+.delivery-hero{
 display:flex;
 justify-content:center;
-margin-top:30px;
+margin-top:40px;
 }
 
-.hero img{
-width:80%;
+.delivery-hero img{
+width:90%;
 max-width:1200px;
-border-radius:20px;
+height:500px;
+object-fit:cover;
+border-radius:15px;
 }
 
 
@@ -57,7 +28,7 @@ margin:auto;
 
 .menu-card{
 background:#111;
-border-radius:20px;
+border-radius:18px;
 padding:20px;
 transition:0.3s;
 }
@@ -69,5 +40,5 @@ box-shadow:0 0 30px orange;
 
 .menu-card img{
 width:100%;
-border-radius:12px;
+border-radius:10px;
 }

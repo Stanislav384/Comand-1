@@ -1,13 +1,17 @@
 <!DOCTYPE html>
-<html lang="uk">
+<html lang="en">
 <head>
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>MacDota Menu</title>
+<title>MacDelivery</title>
 
 <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="delivery.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
 </head>
 
@@ -16,21 +20,38 @@
 
 <header class="dota-header">
 
-<div class="logo-center">
-<img src="logo.png">
+<div class="burger-menu" onclick="toggleMenu()">
+<div class="burger-line"></div>
+<div class="burger-line"></div>
+<div class="burger-line"></div>
 </div>
 
-<a href="#" class="order-btn">
-Назад до меню
+<div class="logo-center">
+<img src="https://i.ibb.co/JNPjFP1/Chat-GPT-Image-21-2026-15-35-23.png">
+</div>
+
+<div class="social-icons">
+
+<i class="fab fa-facebook-f"></i>
+<i class="fab fa-instagram"></i>
+<i class="fab fa-youtube"></i>
+<i class="fab fa-tiktok"></i>
+
+<a href="delivery.html" class="order-btn" id="orderBtn">
+Закажи McDELIVERY®
 </a>
+
+</div>
 
 </header>
 
 
 
-<div class="hero">
-<img src="hero.png">
-</div>
+<section class="delivery-hero">
+
+<img src="images/combo.jpg">
+
+</section>
 
 
 
@@ -58,6 +79,8 @@
 
 </section>
 
+
+<script src="script.js"></script>
 
 </body>
 </html>
